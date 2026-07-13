@@ -67,3 +67,18 @@ Three distinct PPO agents were trained for **300,000 timesteps** each[cite: 3]:
 Run `Training models.py` to train individual PPO models. Edit the hyperparameter settings inside the script to train different agents or change architectures.
 ```bash
 python "Training models.py"
+```
+
+Step 2: Track Metrics with TensorBoard
+Run tensorboard.py to view training logs, losses, and evaluation metrics in your browser.
+
+```Bash
+python tensorboard.py
+```
+
+Step 3: Evaluate and Visualize Gameplay
+Run visualization.py to load the saved agent weights, execute the majority-voting ensemble, and render the CarRacing-v3 interactive Pygame window (as shown in Car.png).
+
+```Bash
+python visualization.py
+```
