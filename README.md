@@ -31,12 +31,14 @@ The agent learns continuous driving actions (steering, gas, brake) directly from
 ## 📂 Project Directory Structure
 
 
+```text
 .
 ├── Training models.py         # Script to train PPO agents with customized hyperparameters
 ├── visualization.py           # Script to load saved models and render CarRacing-v3 gameplay
 ├── tensorboard.py             # Script to launch and manage TensorBoard logging
 ├── Car.png                    # Gameplay window screenshot
 └── README.md                  # Project documentation
+```
 
 
 ## 🛠️ Procedure & Methodology
